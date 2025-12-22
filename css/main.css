@@ -21,14 +21,17 @@ a {
   color: #1d1d1d;
 }
 
+.inner {
+  max-width: 1020px;
+  margin: auto;
+}
+
 /* Header */
 header {
   background-color: #3a3a3a;
 }
 
 header .inner {
-  max-width: 1020px;
-  margin: auto;
   position: relative;
 }
 
@@ -246,4 +249,97 @@ header.searching .search .autocompletes li {
 header .search .autocompletes ul li a:hover {
   background-color: #f5f5f5;
   color: #0071e3;
+}
+
+/* NAV */
+
+nav {
+  width: 100%;
+  height: 53px;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid #d2d2d2;
+  position: sticky;
+  top: 0;
+  z-index: 8;
+}
+
+nav .inner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+nav h1 {
+  flex-grow: 1;
+
+  font-weight: 500;
+  font-size: 22px;
+}
+
+nav ul.menu {
+  display: flex;
+  gap: 12px;
+  font-size: 11px;
+}
+
+nav ul.menu li {
+  padding: 6px;
+}
+
+nav ul.menu li a:hover {
+  color: #0071e3;
+}
+
+nav ul.menu li.idex a {
+  color: gray;
+}
+
+nav ul.menu li.buy_btn {
+  color: #fff;
+  background-color: rgb(0, 115, 230);
+  border-radius: 10px;
+  padding: 0px 10px;
+  display: flex;
+  align-items: center;
+}
+
+nav .inner > ul li.buy_btn:hover {
+  background-color: rgb(0, 115, 230, 0.7);
+}
+
+nav .inner > ul li.buy_btn a {
+  color: #fff;
+}
+
+/* Hero */
+
+.hero {
+}
+
+.hero .inner {
+}
+
+.hero .bgtext {
+}
+
+.hero .figures {
+}
+
+.hero .figures figure {
+}
+.hero .figures figure img {
+}
+
+.hero .figures figure figcaption {
+}
+
+.hero .figures figure figcaption .caption-camera {
+}
+
+.hero .figures figure figcaption .caption-chip {
+}
+
+.hero .figures figure figcaption .caption-storage {
 }
