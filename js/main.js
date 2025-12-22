@@ -1,7 +1,6 @@
 // 장바구니
 const basketStarterEl = document.querySelector('header .basket-starter');
 const basketEl = basketStarterEl.querySelector('.basket');
-
 basketStarterEl.addEventListener('click', (e) => {
   e.stopPropagation();
   basketEl.classList.toggle('show');
