@@ -291,3 +291,39 @@ a.link::after {
     font-size: 17px;
   }
 }
+
+/* Accessory Shop */
+.accessory-shop {
+  background-color: var(--color-section);
+  text-align: center;
+}
+.accessory-shop .whitebox {
+  padding-bottom: 0;
+}
+.accessory-shop .inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.accessory-shop img {
+  margin-top: 50px;
+}
+
+@media (max-width: 1000px) {
+  .accessory-shop img {
+    width: 960px;
+  }
+}
+
+/* Trade */
+.trade {
+  padding: 20px 20px 0;
+  background-color: var(--color-section);
+  text-align: center;
+}
+
+@media (max-width: 1000px) {
+  .trade p br {
+    display: none;
+  }
+}
