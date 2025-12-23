@@ -348,3 +348,37 @@ main {
     transform: scale(0.8) translate(27px, 502px);
   }
 }
+
+/* Wireless */
+.wireless {
+  margin-top: 202px;
+}
+/* Wireless / Facetime */
+.wireless .facetime h1 {
+  width: 730px;
+  height: 330px;
+  background-image: url('../../assets/images/wireless_headline.png');
+  transform: translate(104px, 0);
+}
+.wireless .facetime .figures {
+  height: 773px;
+}
+.wireless .facetime figure {
+  transform: translate(-68px, 0);
+}
+.wireless .facetime figcaption {
+  width: 139px;
+  height: 46px;
+  background-image: url('../../assets/images/wireless_facetime_caption.png');
+  transform: translate(843px, -49px);
+}
+/* Wireless / Files */
+.wireless .files figure {
+  transform: translate(34px, -34px);
+}
+.wireless .files figcaption {
+  width: 127px;
+  height: 46px;
+  background-image: url('../../assets/images/wireless_files_caption.png');
+  transform: translate(96px, 639px);
+}
